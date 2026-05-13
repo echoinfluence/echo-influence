@@ -68,7 +68,7 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-    font-size:7vw;
+   font-size:clamp(40px, 5vw, 90px);
     color:rgba(255,255,255,0.03);
     font-weight:900;
     text-align:center;
