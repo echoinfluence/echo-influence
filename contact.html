@@ -36,39 +36,82 @@
 </nav>
 
     <!-- CONTACT SECTION -->
-    <section class="contact-page">
+   <!-- CONTACT SECTION -->
+<section class="contact-page">
 
-        <div class="contact-container">
+    <div class="contact-container">
 
-            <span class="contact-small">
-                LET’S WORK
-            </span>
+        <span class="contact-small">
+            LET’S WORK
+        </span>
 
-            <h1>
-                Ready to grow your brand?
-            </h1>
+        <h1>
+            Ready to grow your brand?
+        </h1>
 
-            <p>
-                Let’s create something premium together.
-                Reach out and let’s talk business.
-            </p>
+        <p>
+            Let’s create something premium together.
+            Reach out and let’s talk business.
+        </p>
 
-            <div class="contact-links">
+        <!-- CONTACT FORM -->
+        <form 
+            action="https://formsubmit.co/echoinfluence01@gmail.com" 
+            method="POST"
+            class="contact-form"
+        >
 
-                <a href="mailto:echoinfluence01@gmail.com">
-                    echoinfluence01@gmail.com
-                </a>
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
 
-                <a href="https://instagram.com/echoinfluencemedia" target="_blank">
-                    @@echoinfluencemedia
-                </a>
+            <!-- Email Subject -->
+            <input type="hidden" name="_subject" value="New Echo Influence Lead">
 
-            </div>
+            <!-- Redirect After Submit -->
+            <input type="hidden" name="_next" value="https://gentle-wave-03df62a10.7.azurestaticapps.net/contact.html">
+
+            <input 
+                type="text" 
+                name="name" 
+                placeholder="Your Name"
+                required
+            >
+
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea 
+                name="message" 
+                placeholder="Tell us about your project..."
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message →
+            </button>
+
+        </form>
+
+        <!-- CONTACT LINKS -->
+        <div class="contact-links">
+
+            <a href="mailto:echoinfluence01@gmail.com">
+                echoinfluence01@gmail.com
+            </a>
+
+            <a href="https://instagram.com/echoinfluencemedia" target="_blank">
+                @@echoinfluencemedia
+            </a>
 
         </div>
 
-    </section>
+    </div>
 
+</section>
 
     <script src="js/script.js"></script>
 
