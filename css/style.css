@@ -431,7 +431,7 @@ body{
     }
 
     .hero-bg-text{
-        font-size:12vw;
+        font-size:clamp(20px, 5vw, 45px);
         width:300%;
     }
 
