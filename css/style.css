@@ -398,6 +398,31 @@ body{
 }
 
 
+.privacy-page{
+    padding:120px 10%;
+    max-width:900px;
+    margin:auto;
+}
+
+.privacy-page h1{
+    margin-bottom:20px;
+}
+
+.privacy-page h2{
+    margin-top:40px;
+    margin-bottom:10px;
+}
+
+.privacy-page p,
+.privacy-page li{
+    line-height:1.8;
+}
+
+.privacy-page ul{
+    padding-left:20px;
+}
+
+
 
 /* MOBILE */
 @media(max-width:768px){
